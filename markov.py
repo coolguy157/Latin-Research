@@ -80,7 +80,7 @@ def generateSquare(L_start):
 
     REFERENCES:
 
-    .. [JacMat96] Mark T. Jacobson and Peter Matthews, "Generating uniformly
+    .. Mark T. Jacobson and Peter Matthews, "Generating uniformly
        distributed random Latin squares", Journal of Combinatorial Designs,
        4 (1996)
        The SageMath Developers. (2025). SageMath (Version 10.7.beta0) [Computer software].
