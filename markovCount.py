@@ -81,11 +81,12 @@ def generateSquare(L_start):
 
     REFERENCES:
 
-    .. [JacMat96] Mark T. Jacobson and Peter Matthews, "Generating uniformly
-       distributed random Latin squares", Journal of Combinatorial Designs,
-       4 (1996)
-       The SageMath Developers. (2025). SageMath (Version 10.7.beta0) [Computer software].
-        https://doi.org/10.5281/zenodo.8042260"""
+    Mark T. Jacobson and Peter Matthews, "Generating uniformly
+    distributed random Latin squares", Journal of Combinatorial Designs, 4 (1996).  
+    https://doi.org/10.1002/(SICI)1520-6610(1996)4:6%3C405::AID-JCD3%3E3.0.CO;2-J
+    The SageMath Developers. (2025). SageMath (Version 10.7.beta0) [Computer software].
+    https://doi.org/10.5281/zenodo.8042260"""
+    
     r1 = r2 = c1 = c2 = x = y = z = -1
     proper = True
 
