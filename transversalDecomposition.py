@@ -50,7 +50,7 @@ def search_decomposition(transversals, selected, used_cells, start_index):
             continue
         selected.append(candidate)
         new_used = used_cells | candidate
-        result = search_decomposition(transversals, selected, new_used, i + 1, n)
+        result = search_decomposition(transversals, selected, new_used, i + 1)
         if result is not None:
             return result
         selected.pop()
