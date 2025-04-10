@@ -1,5 +1,6 @@
 def delta(x, y, z, n):
-    return (z - x - y) % n
+    diff = z-x-y
+    return (diff) % n if diff > 0 else diff % -n
 
 def search_transversal_with_fixed(n, latin_square, fixed, row_list, col_avail, current, current_delta, target_delta):
     """
@@ -96,5 +97,4 @@ latin_square = [
     [7, 10, 9, 5, 8, 1, 0, 3, 2, 6, 4],
     [9, 8, 4, 10, 3, 6, 2, 0, 5, 7, 1]
 ]
-
 test_results = test_every_element_for_transversal(n, latin_square)

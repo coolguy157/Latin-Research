@@ -35,7 +35,7 @@ def search_decomposition(transversals, selected, used_cells, start_index):
     global iterations
     iterations += 1
     if iterations % 100000 == 0:
-        print(f"Progress: iterations={iterations}, current selected count={len(selected)}")
+        print(f"Progress: iterations={iterations}, current selected count={len(selected)}, selected {selected}")
         
     # check if transversals cover the entire square.
     if len(selected) == n:
